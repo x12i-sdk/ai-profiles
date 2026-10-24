@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:00:37.786004+00:00",
+    "validatedAt": "2026-10-24T14:37:52.527704+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "53513e019d7eb6ae3f5c1a65257f0cd1756ef37fdffe17bc4e85df78ba56868d",
-    "manifestSha256": "498d88afb9ed2b94dbbd89023e190eebbd8dd98a6912bb219ef31c0d7afabcd4"
+    "manifestSha256": "0fe1bd87979eec97190d75bcbe867e4a776f80931601a61cce6f2131448cfbe4"
   },
   "npmPackages": [
     "@x12i/ai-profiles-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/ai-profiles": {
+      "packageVersion": "5.4.0",
+      "title": "Resolve an explicit bundled profile choice without a registry request",
+      "entrypoint": "src/ai-profiles-example.mjs",
+      "command": "npm run example:ai-profiles",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "ec1a22aa25e5f08dffde059d990067cdc3c33180dfb332e909bc3168eb92891b",
+      "manifestSha256": "0fe1bd87979eec97190d75bcbe867e4a776f80931601a61cce6f2131448cfbe4",
+      "validatedAt": "2026-10-24T14:37:52.527704+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/ai-profiles-example.mjs": "ec1a22aa25e5f08dffde059d990067cdc3c33180dfb332e909bc3168eb92891b",
+    "src/index.mjs": "53513e019d7eb6ae3f5c1a65257f0cd1756ef37fdffe17bc4e85df78ba56868d"
+  }
 }

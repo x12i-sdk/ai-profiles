@@ -29,3 +29,16 @@ This is a documentation knowledge SDK. It is installed as a development dependen
 - [npm package](https://www.npmjs.com/package/@x12i/ai-profiles-docs)
 
 The `package.json` in this repository is private to prevent accidental publication of the example application under an npm package name.
+
+## @x12i/ai-profiles runtime example
+
+Resolve AI profile names into concrete model choices with bundled defaults and remote JSON refresh.
+
+Resolve an explicit bundled profile choice without a registry request. This example consumes `@x12i/ai-profiles@5.4.0`.
+
+```sh
+npm install --ignore-scripts
+npm run example:ai-profiles
+```
+
+Source: [`src/ai-profiles-example.mjs`](src/ai-profiles-example.mjs). The original documentation-package example remains available through `npm start`. Both examples are checked independently.

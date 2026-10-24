@@ -2,14 +2,15 @@
   "name": "ai-profiles-usage",
   "version": "1.0.0",
   "private": true,
-  "description": "Usage example for @x12i/ai-profiles-docs: list the bundled guides and read a use case.",
+  "description": "Tested consuming examples for @x12i/ai-profiles-docs, @x12i/ai-profiles",
   "type": "module",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
     "start": "node src/index.mjs",
-    "check": "node --check src/index.mjs"
+    "check": "node --check src/index.mjs",
+    "example:ai-profiles": "node src/ai-profiles-example.mjs"
   },
   "devDependencies": {
     "@x12i/ai-profiles-docs": "0.1.0"
@@ -18,5 +19,8 @@
     "type": "git",
     "url": "https://github.com/x12i-sdk/ai-profiles.git"
   },
-  "homepage": "https://www.npmjs.com/package/@x12i/ai-profiles-docs"
+  "homepage": "https://www.npmjs.com/package/@x12i/ai-profiles-docs",
+  "dependencies": {
+    "@x12i/ai-profiles": "5.4.0"
+  }
 }
