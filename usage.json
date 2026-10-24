@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/ai-profiles-docs",
+  "packageVersion": "0.1.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/ai-profiles-docs",
+  "usageRepository": "https://github.com/x12i-sdk/ai-profiles",
+  "sourceRepository": null,
+  "sourceCommit": null,
+  "sourcePackageDirectory": null,
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:00:37.786004+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "53513e019d7eb6ae3f5c1a65257f0cd1756ef37fdffe17bc4e85df78ba56868d",
+    "manifestSha256": "498d88afb9ed2b94dbbd89023e190eebbd8dd98a6912bb219ef31c0d7afabcd4"
+  },
+  "npmPackages": [
+    "@x12i/ai-profiles-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
